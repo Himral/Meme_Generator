@@ -45,7 +45,7 @@ export default function Meme()
        
             <div className = "form">
                 <input 
-                    placeholder = "toptext"
+                    placeholder = "Enter Top text"
                     className = "form--input"
                     type="text"
                     name = "topText"
@@ -53,7 +53,7 @@ export default function Meme()
                     onChange={handleChange}
                 />
                 <input 
-                    placeholder = "bottomtext"
+                    placeholder = "Enter Bottom text"
                     className = "form--input"
                     type="text"
                     name = "bottomText"
